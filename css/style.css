@@ -66,7 +66,8 @@ img {
 	padding: 10px 20px;
 	text-transform: uppercase;
 	border: 2px solid;
-	font-weight: 500;
+	line-height: 25px;
+	font-weight: normal;
 }
 
 
@@ -545,12 +546,182 @@ img {
 	margin-top: 10px;
 }
 
+.label-checkbox-container {
+	margin-bottom: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 260px;
+	min-height: 36px;
+}
+
+.label-checkbox-container label {
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+}
+
+.add-email-margin {
+	margin-bottom: 55px;
+}
+
+.add-textarea-margin {
+	margin-bottom: 40px;
+}
+
+.add-button-margin {
+	padding-left: 200px;
+}
+
+.input-checkbox + label::before {
+    content: "";
+    position: absolute;
+    left: -60px;
+    top: -3px;
+    width: 36px;
+    height: 36px;
+    background-color: #e6b66c;
+}
+
+.input-checkbox:checked + label::after {
+    content: "";
+    position: absolute;
+	top: 9px;
+    left: -48px;
+    width: 12px;
+    height: 12px;
+    background-image: url(../img/cross.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.order-form input::-webkit-input-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form input::-moz-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form input:-moz-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form input:-ms-input-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form input:placeholder-shown {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form input::-webkit-input-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form input:-ms-input-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form input::-ms-input-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form input::placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
 
 
+.order-form textarea::-webkit-input-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
+.order-form textarea::-moz-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
+.order-form textarea:-moz-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
+.order-form textarea:-ms-input-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form textarea:placeholder-shown {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form textarea::-webkit-input-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form textarea:-ms-input-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form textarea::-ms-input-placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.order-form textarea::placeholder {
+	color: #000000;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
 
 /*===================================*/

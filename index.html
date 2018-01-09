@@ -227,24 +227,24 @@
 				<div class="container">
 					<h2 class="section-title">Заказать</h2>
 					<p class="order-description">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
-					<form action="/keksby-mail" method="post">
+					<form class="order-form" action="https://echo.htmlacademy.ru" method="post">
 						<div class="label-input-container">
 							<label for="fullname">Представьтесь:</label>
-							<input class="text-input" type="text" name="fullname" id="fullname">
+							<input class="text-input" type="text" name="fullname" id="fullname" placeholder="Как мы можем к вам обращаться?">
 						</div>
 						<div class="label-input-container">
 							<div class="label-input-half-container">
 								<label for="phone">Номер телефона:</label>
-								<input class="text-input-short" type="text" name="phone" id="phone">
+								<input class="text-input-short" type="text" name="phone" id="phone" placeholder="+7 (XXX) XXX-XX-XX">
 							</div>
 							<div class="label-input-half-container">
 								<label for="altphone">Доп. номер:</label>
-								<input class="text-input-short" type="text" name="altphone" id="altphone">
+								<input class="text-input-short" type="text" name="altphone" id="altphone" placeholder="+7 (XXX) XXX-XX-XX">
 							</div>
 						</div>
-						<div class="label-input-container">
+						<div class="label-input-container add-email-margin">
 							<label for="email">Email:</label>
-							<input class="text-input" type="email" name="email" id="email">
+							<input class="text-input" type="email" name="email" id="email" placeholder="Ваша электронная почта">
 						</div>
 						<div class="label-input-container">
 							<label for="amount">Объем заказа:</label>
@@ -254,17 +254,17 @@
 								<option value="3">От 10 до 20 баррелей в неделю</option>
 							</select>
 						</div>
-						<div class="label-input-container">
+						<div class="label-input-container add-textarea-margin">
 							<label for="comment">Доп. комментарий:</label>
-							<textarea class="textarea-input" name="comment" id="comment" rows="10" cols="96"></textarea>
+							<textarea class="textarea-input" name="comment" id="comment" rows="10" cols="96" placeholder="Сообщите нам всё, что считаете нужным"></textarea>
 						</div>
-						<div class="label-input-container">
-							<label>
-								<input type="checkbox" name="subscription">
-								Я согласен получать квасную рассылку
-							</label>
+						<div class="label-checkbox-container">
+								<input class="visually-hidden input-checkbox" type="checkbox" name="subscription" id="subscription">
+								<label for="subscription">Я согласен получать квасную рассылку</label>
 						</div>
-					<button class="button buy-button" type="submit">Отправить заказ</button>
+						<div class="add-button-margin">
+							<button class="button buy-button" type="submit">Отправить заказ</button>
+						</div>
 					</form>
 				</div>
 			</section>
